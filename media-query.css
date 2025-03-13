@@ -1,0 +1,322 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+  /* Header section */
+  
+
+  
+  #my_name{
+    width: 90%;
+ 
+  }
+  #my_image img{
+    margin-top: 23%;
+  }
+  
+  .hi_there{
+    line-height: 42px;
+  }
+  .hi_there p{
+    font-size: 15px;
+    width: 88%;
+  }
+  
+  /* my image section */
+  .container .text{
+    font-size: 40px;
+  }
+  #my_name .hi_there h1 {
+    font-size: 26px;
+}
+  
+  
+  
+  /*section who_is_mayaz */
+  #who_is_mayaz{
+
+    width: 95%;
+  }
+ 
+  .who_img img{
+   height: 425px;
+  }
+  #main_socal .fa_brands{
+    width: 46%;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+  .web_logo h1 a{
+    font-size: 25px;
+    margin-left: auto;
+  }
+  #my_image {
+    float:none;
+    width: 300px;
+    margin: auto;
+   
+}
+.hi_there {
+  margin-top: 6%;
+  line-height: 40px;
+  float: none;
+  width: auto
+  
+}
+
+#who_is_mayaz{
+  display: block;
+}
+.who_text{
+  width: auto;
+  margin-top: 7%;
+}
+#socal_my_img{
+  width: 300px;
+  margin: auto;
+  float: none;
+}
+#all_socall {
+  width: auto;
+  float: none; 
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .nav_top nav ul li a{
+    padding: 0px  14px;
+  }
+  #top_nav{
+    display: block;
+    text-align: center;
+  }
+  .web_logo h1 a{
+    display: none;
+  }
+  #my_image {
+    float:none;
+    width: 300px;
+    margin: auto;
+   
+}
+#my_name{
+  width: 96%;
+  margin-top: 0%;
+}
+.hi_there{
+  width: auto;
+}
+#my_name .hi_there h1{
+  font-size: 24px;
+}
+.container .text{
+  font-size: 35px;
+}
+#who_is_mayaz{
+  display: block;
+  width: 95%;
+  margin-top: 20%;
+}
+.who_img {
+  width: 400px;
+  margin: auto;
+}
+.who_img img{
+  margin-top: 8%;
+  margin-left: 4%;
+  width: 400px;
+  height: 440px;
+}
+.who_text {
+  width: auto;
+  margin-top: 12%;
+}
+#main_socal{
+  width: 95%;
+}
+#socal_my_img {
+  width: 300px;
+  float: none;
+  margin: auto;
+}
+#all_socall {
+  width: auto;
+  margin-top: 20px;
+  float: none;
+}
+#main_socal .fa_brands{
+  width: 45%;
+}
+#all_skill #my_skill {
+  width: 75%;
+  margin: auto;
+}
+.text.sec-text:before{
+  height: 110%;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+#myHeader .web_logo {
+  display: none;
+}
+.nav_top nav ul li a{
+  padding: 0px 6px;
+  font-size: 13px;
+}
+.nav_top {
+  margin: auto;
+}
+
+#my_image {
+  float:none;
+  width: 200px;
+  margin: auto;
+ 
+}
+#my_image img{
+  height: 200px;
+  width: 200px;
+}
+#my_name{
+width: 96%;
+margin-top: 0%;
+}
+.hi_there{
+width: auto;
+margin-top: 5%;
+line-height: 40px;
+float: none;
+}
+#my_name .hi_there h1{
+font-size: 18px;
+margin-bottom: auto;
+}
+.container .text{
+font-size: 24px;
+}
+.button_too a {
+  margin-right: 23px;
+}
+
+#who_is_mayaz{
+display: block;
+width: 95%;
+margin-top: 20%;
+}
+.who_img {
+  width: 200px;
+  margin: auto;
+}
+.who_img img{
+  margin-top: auto;
+  margin-left: auto;
+  width: 200px;
+  height: 240px;
+}
+.who_text {
+width: auto;
+margin-top: 15%;
+}
+#main_socal{
+width: 95%;
+}
+#socal_my_img img{
+  width: 240px;
+}
+#socal_my_img {
+  width: 250px;
+  float: none;
+  margin: auto;
+}
+#all_socall {
+width: auto;
+margin-top: 20px;
+float: none;
+}
+#main_socal .fa_brands{
+width: 43%;
+}
+#main_socal .fa_brands .fa-facebook{
+  font-size: 40px;
+}
+#main_socal .fa_brands .right_conten span {
+  font-size: 20px;
+}
+#main_socal .fa_brands .right_conten p {
+  font-size: 12px;
+}
+#main_socal .fa_brands .fa-square-youtube{
+  font-size: 40px;
+}
+#main_socal .fa_brands .fa-instagram{
+  font-size: 33px;
+}
+#main_socal .fa_brands .fa-linkedin{
+  font-size: 45px;
+}
+#all_skill #my_skill {
+width: 75%;
+margin: auto;
+}
+#all_skill h1{
+  font-size: 25px;
+}
+.skill-title{
+  font-size: 12px;
+}
+#copyright p, #copyright a{
+  font-size: 13px;
+}
+.text.sec-text:before{
+  height: 110%;
+}
+  
+}
